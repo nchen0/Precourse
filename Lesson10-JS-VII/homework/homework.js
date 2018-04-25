@@ -5,6 +5,11 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  var count = 0;
+  return function() {
+    count++;
+    return count;
+  };
 }
 
 function cacheFunction(cb) {

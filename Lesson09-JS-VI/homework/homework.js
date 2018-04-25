@@ -20,7 +20,7 @@ function forEach(arr, cb) {
   // hint: you will be invoking cb multiple times (once for each value in the array)
   arr.forEach(function(number) {
     cb(number);
-  })
+  });
 }
 
 function map(arr, cb) {
